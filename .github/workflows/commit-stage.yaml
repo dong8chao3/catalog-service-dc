@@ -5,9 +5,6 @@ jobs:
   build:
     name: Build and Test
     runs-on: ubuntu-20.04
-    permissions:
-      contents: read
-      security-events: write
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
@@ -27,9 +24,6 @@ jobs:
           acs-report-enable: true
       - name: Upload vulnerablility report
         uses: github/codeql-action/upload-sarif@v3
-	permissions:
-	  contents: read
-	  security-events: write
         if: success() || failure()
         with:
           sarif_file: ${{ steps.scan.outputs.sarif }}
