@@ -2,9 +2,6 @@ name: Commit Stage
 on: push
 
 jobs:
-  permissions:
-    contents: read
-    security-events: write
   build:
     name: Build and Test
     runs-on: ubuntu-20.04
@@ -30,6 +27,9 @@ jobs:
           acs-report-enable: true
       - name: Upload vulnerablility report
         uses: github/codeql-action/upload-sarif@v3
+	permissions:
+	  contents: read
+	  security-events: write
         if: success() || failure()
         with:
           sarif_file: ${{ steps.scan.outputs.sarif }}
