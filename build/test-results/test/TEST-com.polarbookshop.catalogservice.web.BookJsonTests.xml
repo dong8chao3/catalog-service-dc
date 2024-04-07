@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.polarbookshop.catalogservice.web.BookJsonTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-27T14:05:14" hostname="dc-WRTB-WXX9" time="0.839">
+<testsuite name="com.polarbookshop.catalogservice.web.BookJsonTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-31T01:37:00" hostname="dc-WRTB-WXX9" time="0.055">
   <properties/>
-  <testcase name="testSerialize()" classname="com.polarbookshop.catalogservice.web.BookJsonTests" time="0.79"/>
-  <testcase name="testDeserialize()" classname="com.polarbookshop.catalogservice.web.BookJsonTests" time="0.046"/>
-  <system-out><![CDATA[22:05:13.301 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.polarbookshop.catalogservice.web.BookJsonTests]: BookJsonTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-22:05:13.440 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.polarbookshop.catalogservice.CatalogServiceApplication for test class com.polarbookshop.catalogservice.web.BookJsonTests
+  <testcase name="testSerialize()" classname="com.polarbookshop.catalogservice.web.BookJsonTests" time="0.025"/>
+  <testcase name="testDeserialize()" classname="com.polarbookshop.catalogservice.web.BookJsonTests" time="0.029"/>
+  <system-out><![CDATA[2024-03-31T09:37:00.090+08:00  INFO 4263 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.polarbookshop.catalogservice.web.BookJsonTests]: BookJsonTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-31T09:37:00.100+08:00  INFO 4263 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.polarbookshop.catalogservice.CatalogServiceApplication for test class com.polarbookshop.catalogservice.web.BookJsonTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,13 +14,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.3)
 
-2024-03-27T22:05:13.742+08:00  INFO 9438 --- [    Test worker] c.p.catalogservice.web.BookJsonTests     : Starting BookJsonTests using Java 21.0.2 with PID 9438 (started by dc in /home/dc/native-cloud-spring-in-action/catalog-service)
-2024-03-27T22:05:13.743+08:00  INFO 9438 --- [    Test worker] c.p.catalogservice.web.BookJsonTests     : No active profile set, falling back to 1 default profile: "default"
-2024-03-27T22:05:14.115+08:00  INFO 9438 --- [    Test worker] c.p.catalogservice.web.BookJsonTests     : Started BookJsonTests in 0.626 seconds (process running for 1.469)
+2024-03-31T09:37:00.131+08:00  INFO 4263 --- [    Test worker] c.p.catalogservice.web.BookJsonTests     : Starting BookJsonTests using Java 21.0.2 with PID 4263 (started by dc in /home/dc/native-cloud-spring-in-action/catalog-service-dc)
+2024-03-31T09:37:00.131+08:00  INFO 4263 --- [    Test worker] c.p.catalogservice.web.BookJsonTests     : No active profile set, falling back to 1 default profile: "default"
+2024-03-31T09:37:00.221+08:00  INFO 4263 --- [    Test worker] c.p.catalogservice.web.BookJsonTests     : Started BookJsonTests in 0.117 seconds (process running for 4.489)
 ]]></system-out>
-  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/dc/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

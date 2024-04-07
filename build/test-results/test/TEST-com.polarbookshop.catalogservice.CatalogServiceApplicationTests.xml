@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.polarbookshop.catalogservice.CatalogServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-31T01:36:58" hostname="dc-WRTB-WXX9" time="1.059">
+  <properties/>
+  <testcase name="whenPostRequestThenBookCreated()" classname="com.polarbookshop.catalogservice.CatalogServiceApplicationTests" time="1.059"/>
+  <system-out><![CDATA[09:36:56.373 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.polarbookshop.catalogservice.CatalogServiceApplicationTests]: CatalogServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:36:56.450 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.polarbookshop.catalogservice.CatalogServiceApplication for test class com.polarbookshop.catalogservice.CatalogServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-03-31T09:36:56.774+08:00  INFO 4263 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : Starting CatalogServiceApplicationTests using Java 21.0.2 with PID 4263 (started by dc in /home/dc/native-cloud-spring-in-action/catalog-service-dc)
+2024-03-31T09:36:56.776+08:00  INFO 4263 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-03-31T09:36:57.690+08:00  INFO 4263 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-03-31T09:36:57.706+08:00  INFO 4263 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-31T09:36:57.707+08:00  INFO 4263 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-31T09:36:57.753+08:00  INFO 4263 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-31T09:36:57.754+08:00  INFO 4263 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 959 ms
+2024-03-31T09:36:58.190+08:00  INFO 4263 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 45037 (http) with context path ''
+2024-03-31T09:36:58.198+08:00  INFO 4263 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : Started CatalogServiceApplicationTests in 1.644 seconds (process running for 2.466)
+2024-03-31T09:36:59.216+08:00  INFO 4263 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-31T09:36:59.217+08:00  INFO 4263 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-31T09:36:59.218+08:00  INFO 4263 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/dc/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
